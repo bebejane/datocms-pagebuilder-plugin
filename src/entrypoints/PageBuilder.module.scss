@@ -3,9 +3,11 @@
   flex-direction: row;
   min-height: 100vh;
   .editor{
-    flex: 0 0 30%;
+    flex: 1 1 30%;
+    
   }
   .site{
     flex: 0 0 70%;
+    border-left: 2px solid #fff;
   }
 }

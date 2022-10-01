@@ -9,8 +9,8 @@ export default function PageBuilder({ ctx }: PropTypes) {
   return (
     <Canvas ctx={ctx}>
       <div className={s.container}>
-        <iframe className={s.editor} src={'https://meadow.admin.datocms.com/editor/item_types/69229/items/5788003'}/>
-        <iframe className={s.site} src={'https://meadow.vercel.app'}/>
+        <iframe  frameBorder={0} className={s.editor} src={'https://meadow.admin.datocms.com/editor/item_types/69229/items/5788003'}/>
+        <iframe  frameBorder={0} className={s.site} src={'http://localhost:3001'}/>
       </div>
     </Canvas>
   );

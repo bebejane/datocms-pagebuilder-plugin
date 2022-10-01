@@ -12,7 +12,7 @@ connect({
     return [
       {
         label: 'Page Builder',
-        icon: 'analytics',
+        icon: 'cubes',
         pointsTo: {
           pageId: 'pagebuilder',
         },
